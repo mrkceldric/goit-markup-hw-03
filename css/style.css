@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size:100%;
+    font-weight: 400;
+}
+
+.navigation-links .logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.navigation-links .logo h1[title="WEB"]{
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+
+.navigation-links .logo h1[title="STUDIO"]{
+    color: rgb(46, 47, 66);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+
+.navigation-links ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+.navigation-links a {
+    cursor: pointer;
+}
+
+.navigation-links li > a:hover {
+    background-color: rgb(46, 47, 66);
+    color: white;
+    padding: 5px;
+}
+
+.navigation-links .contacts:focus{
+    color:gold;
+}
+
+.about-us ul{   
+    list-style-type: none;
+    padding-left: 2px;
+   
+}
+.about-us h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.services ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.team ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+.team h2{
+    text-align: center;
+}
+
+.container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(46, 47, 66);
+}
+
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero-content button{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+
+.footer-section{
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    background-color: rgb(46, 47, 66);
+    padding-block: 20px;
+    padding-left: 10px;
+    font-family: Calibri, sans-serif;
+}
+
+.footer-section .logo{
+    text-decoration: none;
+    display: flex;
+}
+
+.footer-section .logo h1[title="WEB"]{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.footer-section .logo h1[title="STUDIO"]{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color:white;
+}
+
