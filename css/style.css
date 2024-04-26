@@ -4,8 +4,31 @@ body {
     font-weight: 400;
 }
 
+.navigation-links {
+    /* border: 2px dashed #2196F3; */
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navigation-links li {
+    display: inline;
+    /* border: 10px dashed red; */
+}
+
+.navigation-links a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    /* background-color: burlywood; */
+    text-decoration: none;
+}
+
 .navigation-links .logo {
     display: flex;
+    width: 130px;
+    /* border: 5px dashed red; */
     text-decoration: none;
 }
 
@@ -29,17 +52,16 @@ body {
 
 .navigation-links ul{
     list-style-type: none;
-    padding-left: 2px;
+    padding: 19px;
+    margin: 5px;
+    margin-bottom: 1px;
+    margin-left: 50px;
 }
 
-.navigation-links a {
-    cursor: pointer;
-}
 
 .navigation-links li > a:hover {
     background-color: rgb(46, 47, 66);
     color: white;
-    padding: 5px;
 }
 
 .navigation-links .contacts:focus{
@@ -48,7 +70,11 @@ body {
 
 .about-us ul{   
     list-style-type: none;
-    padding-left: 2px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    width: fit-content;
    
 }
 .about-us h3{
@@ -58,6 +84,7 @@ body {
 .services ul{
     list-style-type: none;
     padding-left: 2px;
+    display: inline-flex;
 }
 
 .services h2 {
@@ -67,6 +94,7 @@ body {
 .team ul{
     list-style-type: none;
     padding-left: 2px;
+    display: inline-flex;
 }
 
 .team h2{
@@ -78,6 +106,7 @@ body {
     align-items: center;
     text-align: center;
     background-color: rgb(46, 47, 66);
+    padding-top: 10px;
 }
 
 .container h1 {
@@ -93,11 +122,12 @@ body {
     border-radius: 4px;
     border: none;
     color: white;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     box-shadow: 0px 4px 4px 0px #00000026;
     cursor: pointer;
     background-color: #4D5AE5;
+    margin-bottom: 50px;
 }
 
 
